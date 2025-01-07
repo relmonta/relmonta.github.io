@@ -8,7 +8,7 @@
     <title>My Portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:500,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -34,6 +34,9 @@
                 <a href="#education">Education</a>
             </li>
             <li>
+                <a href="#publications">Publications</a>
+            </li>
+            <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
@@ -57,7 +60,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1><p><font face="Chalkduster">Rachid EL MONTASSIR</font><p></h1>
-            <h2><p><font face="Chalkduster">Ph.D Student in Artificial Intelligence for Weather Forecasting</font><p></h2>
+            <h2><p><font face="Chalkduster">Postdoctoral researcher | AI for climate downscaling</font><p></h2>
             <a href="CVs/english-cv.pdf" class="btn-rounded-white"> My Resume </a>
         </div>
         <!-- End #lead-content -->
@@ -81,8 +84,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Interested in Mathematics and Computer Science, I am a Ph.D. student in Artificial Intelligence for Weather Forecasting at CERFACS, Toulouse, France. I am currently working on a hybrid Physics-AI architecture for cloud cover nowcasting. I am Interested in Applying Deep Learning to Climate and Weather Forecasting to improve the accuracy of predictions and reduce the computational cost. I am particularly interested in
-                        incorporating physical knowledge into AI models for cheaper and and less data-hungry models and better generalisation.
+                        Interested in Mathematics and Computer Science, I am a postdoctoral researcher at CERFACS, Toulouse, France. I am working on climate downscaling using deep learning models (foundation models). I have a Ph.D. from Paul Sabatier University, Toulouse, France. My thesis introduces a hybrid approach combining Physics and AI for cloud cover nowcasting, aiming to address limitations of traditional deep learning methods. 
                     </p>
                 </div>
             </div>
@@ -93,25 +95,30 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2021 – Present">
-                <h3>Ph.D Student</h3>
+            <div data-date="January 2025 - January 2027">
+                <h3>Postodoctoral Researcher</h3>
+                <h4>CERFACS</h4>
+                <p>Working on climate downscaling using deep learning models (foundation models). </p>
+            </div>
+            <div data-date="September 2021 – November 2024">
+                <h3>Ph.D. Student</h3>
                 <h4>CERFACS</h4>
                 <p> Thesis title: <b>Hybrid Physics-AI architecture for cloud cover nowcasting.</b></p>
                 <P>
-                    This study introduces a hybrid approach combining Physics and AI for cloud cover nowcasting, aiming to address limitations of traditional deep learning methods. This method, called HyPhAI, enforces physical constraints in a differentiable way within a classical neural network model,showing superior performance compared to conventional methods and achieving better detail preservation with less data. This work led to a <a href="https://egusphere.copernicus.org/preprints/2024/egusphere-2023-3078/">preprint</a> submission to Geoscientific Model Development (GMD) journal and a <a href="https://events.ecmwf.int/event/294/page/155-posters">poster presentation</a> at the ECMWF Machine Learning Workshop 2022. Defense expected in Oct. 2024.
-                </P>
-            <hr>
+                    This study introduces a hybrid approach combining Physics and AI for cloud cover nowcasting, aiming to address limitations of traditional deep learning methods. This method, called HyPhAI, enforces physical constraints in a differentiable way within a classical neural network model,showing superior performance compared to conventional methods and achieving better detail preservation with less data. This work led to a <a href="https://doi.org/10.5194/gmd-17-6657-2024">paper publication</a> on Geoscientific Model Development (GMD) journal and a <a href="https://events.ecmwf.int/event/294/page/155-posters">poster presentation</a> at the ECMWF Machine Learning Workshop 2022. Defense expected in Oct. 2024.
+                </p>
+            </div>            
             <div data-date="March 2021 – September 2021">                
                 <h3>Research Intern</h3>
                 <h4>CERFACS</h4>
                 <p>
                     Designing a hybrid Physics-AI approach for cloud cover nowcasting:<br/> 
 		        - Defining the Physical model in the form of partial differential equations (PDE).<br/> 
-		        - Transforming the PDE to Keras model.<br/> 
-                - Designing the hybrid architecture by associating a U-Net model with the physical model.<br/> 
+		        - Writing the PDE in a differentiable way using PyTorch.<br/> 
+                - Designing the hybrid architecture by associating trainable models with the physical model.<br/> 
 		        - Training, Testing and Adaptation.<br/> 
 
-                    Using: Python and Keras. </p>
+                    Using: Python, PyTorch. </p>
                 </p>
             </div>
             <hr>
@@ -132,8 +139,8 @@
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>Paul Sabatier University, Toulouse, France</h3>
-            <span class="education-date">Sept 2021 - Present</span>
-            <h4>Ph.D Student, Artificial Intelligence for Weather Forecasting </h4>
+            <span class="education-date">Sept 2021 - November 2024</span>
+            <h4>Ph.D. Student, Deep Learning for Weather Forecasting </h4>
             <p>
                 Hybrid Physics-AI architecture for cloud cover nowcasting.
             </p>
@@ -168,8 +175,32 @@
         </div>
         <!-- End .education-block -->
     </div>
-    <!-- End #education -->
 
+    <!-- End #education -->
+    <div id="publications">
+        <h2 class="heading">Publications and contributions</h2>
+        <div class="container">
+            <div class="row">
+                <div class="publication shadow-large">
+                    <h3>HyPhAICC v1.0: A hybrid physics–AI approach for probability fields advection shown through an application to cloud cover nowcasting</h3>
+                    <p>
+                        R. El Montassir, O. Pannekoucke, and C. Lapeyre <br/>
+                        <i>Geoscientific Model Development (GMD) journal, 2024</i> <br/>
+                        <a href="https://doi.org/10.5194/gmd-17-6657-2024">Read more</a>
+                    </p>
+                </div>
+                <div class="publication shadow-large">
+                    <h3>Poster Presentation at ECMWF Machine Learning Workshop 2022</h3>
+                    <p>
+                        R. El Montassir, O. Pannekoucke, and C. Lapeyre <br/>
+                        <i>ECMWF Machine Learning Workshop, 2022</i> <br/>
+                        <a href="https://events.ecmwf.int/event/294/page/155-posters">View Poster</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #publications -->
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
@@ -184,10 +215,17 @@
                         <p>
                             The goal of this project is to develop a system that allows a drone to reach and rescue a person in distress. The drone must be able to locate the person, approach him, take enough information to understand the situation and send it to the rescue team. I worked on the final part of the project, which is the interaction between the drone and the person. </p>
                             Using : Python, TensorFlow and PyTorch.
-                        </p>
+                        </p>                        
+                        <div style="width: 100%; max-width: 650px; margin: 0 auto;">
+                            <blockquote class="linkedin-post">
+                                <a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6777275457827061760">A LinkedIn post shared by SII about the project</a>
+                            </blockquote>
+                            <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                        </div>
+                                             
                         <!-- <a href="#">View Project</a> -->
                     </div>
-                    <!-- End .project-info -->
+                    <!-- End .project-info --></div>
                 </div>
                 <!-- End .project -->
 
@@ -296,7 +334,6 @@
             <li>Arabic : Native tongue</li>
             <li>English : Professional level</li>
             <li>French : Advanced</li>
-            <li>German and Spanish : Elementary</li>
         </ul>
     </div>
     <!-- End #languages -->
