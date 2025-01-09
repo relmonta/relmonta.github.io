@@ -614,6 +614,39 @@ footer {
     font-size: 0.9em;
     margin: 0;
 }
+
+#contributions {
+    padding: 50px 15px;
+    text-align: center;
+    border-bottom: 1px solid #dcd9d9;
+}
+
+#contributions h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+.contribution {
+    max-width: 1000px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    border: 1px solid #dcd9d9;
+    background: #fff;
+    text-align: left;
+}
+
+.contribution h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0;
+}
+
+.contribution p {
+    color: #74808a;
+    font-size: 0.9em;
+    margin: 0;
+}
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
@@ -669,7 +702,109 @@ footer {
 #more-projects {
     display: none
 }
+#certificates {
+    padding: 50px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+}
 
+#certificates h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+.certificate {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.certificate-image {
+    float: left;
+}
+
+.certificate-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px;
+}
+
+.certificate-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0;
+}
+
+.certificate-info p {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+}
+
+.no-image .certificate-info {
+    position: relative;
+    margin: 0;
+    padding: 30px 15px;
+    transform: none;
+}
+
+#civic {
+    padding: 50px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+}
+
+#civic h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+.civic-item {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.civic-image {
+    float: left;
+}
+
+.civic-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px;
+}
+
+.civic-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 15px 0;
+}
+
+.civic-info p {
+    color: #74808a;
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+}
+
+.no-image .civic-info {
+    position: relative;
+    margin: 0;
+    padding: 30px 15px;
+    transform: none;
+}
 #skills {
     padding: 50px 15px;
     text-align: center
@@ -697,7 +832,33 @@ footer {
     cursor: default;
     font-size: 1.2em
 }
+#languages {
+    padding: 50px 15px;
+    text-align: center;
+}
 
+#languages h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+#languages ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+#languages li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #fff;
+    background: #3498db;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
 #contact {
     padding: 50px 15px;
     background: #3498db;

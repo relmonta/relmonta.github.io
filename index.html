@@ -37,18 +37,22 @@
                 <a href="#publications">Publications</a>
             </li>
             <li>
+                <a href="#contributions">Contributions</a>
+            </li>
+            <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
-                <a href="#projects">Civic Engagement</a>
+                <a href="#certificates">Certificates</a>
             </li>
-
             <li>
                 <a href="#skills">Skills</a>
             </li>
-
             <li>
-                <a href="#skills">Languages</a>
+                <a href="#languages">Languages</a>
+            </li>
+            <li>
+                <a href="#civic">Civic Engagement</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -60,7 +64,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1><p><font face="Chalkduster">Rachid EL MONTASSIR</font><p></h1>
-            <h2><p><font face="Chalkduster">Postdoctoral researcher | AI for climate downscaling</font><p></h2>
+            <h2><p><font face="Chalkduster">Postdoctoral researcher | AI for weather and climate sciences</font><p></h2>
             <a href="CVs/english-cv.pdf" class="btn-rounded-white"> My Resume </a>
         </div>
         <!-- End #lead-content -->
@@ -84,7 +88,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Interested in Mathematics and Computer Science, I am a postdoctoral researcher at CERFACS, Toulouse, France. I am working on climate downscaling using deep learning models (foundation models). I have a Ph.D. from Paul Sabatier University, Toulouse, France. My thesis introduces a hybrid approach combining Physics and AI for cloud cover nowcasting, aiming to address limitations of traditional deep learning methods. 
+                        Interested in Mathematics and Climate and Computer Sciences, I am a postdoctoral researcher at CERFACS, Toulouse, France. I am working on climate downscaling using deep learning models (foundation models). I have a Ph.D. from Paul Sabatier University, Toulouse, France. My thesis introduces a hybrid approach combining Physics and AI for cloud cover nowcasting, aiming to address limitations of traditional deep learning methods. 
                     </p>
                 </div>
             </div>
@@ -178,7 +182,7 @@
 
     <!-- End #education -->
     <div id="publications">
-        <h2 class="heading">Publications and contributions</h2>
+        <h2 class="heading">Publications</h2>
         <div class="container">
             <div class="row">
                 <div class="publication shadow-large">
@@ -186,10 +190,18 @@
                     <p>
                         R. El Montassir, O. Pannekoucke, and C. Lapeyre <br/>
                         <i>Geoscientific Model Development (GMD) journal, 2024</i> <br/>
-                        <a href="https://doi.org/10.5194/gmd-17-6657-2024">Read more</a>
+                        <a href="https://doi.org/10.5194/gmd-17-6657-2024">View article</a>
                     </p>
                 </div>
-                <div class="publication shadow-large">
+            </div>
+        </div>
+    </div>
+    <!-- End #publications -->
+    <div id="contributions">
+        <h2 class="heading">Contributions</h2>
+        <div class="container">
+            <div class="row">
+                <div class="contribution shadow-large">
                     <h3>Poster Presentation at ECMWF Machine Learning Workshop 2022</h3>
                     <p>
                         R. El Montassir, O. Pannekoucke, and C. Lapeyre <br/>
@@ -197,17 +209,50 @@
                         <a href="https://events.ecmwf.int/event/294/page/155-posters">View Poster</a>
                     </p>
                 </div>
+                <div class="contribution shadow-large">
+                    <h3>Blog Post: Creating Beautiful Diagrams with TikZ in LaTeX</h3>
+                    <p>
+                        R. El Montassir <br/>
+                        <i>The COOP Blog, 2024</i> <br/>
+                        <a href="https://cerfacs.fr/coop/start_with_tikz">View Post</a>
+                    </p>
+                </div>
+                <div class="contribution shadow-large">
+                    <h3>Blog Post: Some PyTorch multi-GPU training tips</h3>
+                    <p>
+                        R. El Montassir and L. Drozda <br/>
+                        <i>The COOP Blog, 2024</i> <br/>
+                        <a href="https://cerfacs.fr/coop/pytorch-multi-gpu">View Post</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    <!-- End #publications -->
+    <!-- End #contributions -->     
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/drone-2.png" />
+                        <img src="images/hyphaicc_illustration.png" width="250"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>HyPhAICC source code</h3>
+                        <p>
+                            The source code of the <a href="#publications">HyPhAICC project</a> is available on GitHub. This code is written in Python and PyTorch. </p>
+                            <a href="https://github.com/relmonta/hyphai">Access the code</a> </br>
+                            <a href="https://github.com/relmonta">Acces my GitHub for more projects</a>
+                        </p>
+                        <!-- <a href="#">View Project</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/drone.png" width="250" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -227,57 +272,19 @@
                     </div>
                     <!-- End .project-info --></div>
                 </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/nlp-2.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>AI-Challenge (InClass Prediction Competition )</h3>
-                        <p>
-                            Assigning the correct job category to a job description. A multi-class classification task with 28 classes to choose from. The data contains a certain amount of bias. One of the goals of this competition is to design a solution that is both accurate as well as fair.</p>
-                            Using: Python, Keras, PyTorch, BERT, Transformers, etc
-                        </p>
-                        <!-- <a href="#">View Project</a> -->
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                <!-- End .project -->                 
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Civic Engagement</h2>
+    <div id="certificates" class="background-alt">
+        <h2 class="heading">Certificates</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/civic-engagement.png" />
-                    </div>
-                    <div class="project-info">
-                        <h3>A.P.S.A.R. Association</h3>
-                        <h5>70 Chemin Michoun, 31500 Toulouse, France</h5>
-                        <p>
-                            Accompanying students during 3 months at the A.P.S.A.R. association.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Certificats</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/coursera.jpg" />
+                        <img src="images/coursera.png" width="200"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -294,7 +301,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/coursera.jpg" />
+                        <img src="images/coursera.png" width="200"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -327,7 +334,7 @@
     </div>
     <!-- End #skills -->
 
-    <div id="skills">
+    <div id="languages">
         <h2 class="heading">Languages</h2>
         <ul>
             <li>Berber : Native tongue </li>
@@ -337,7 +344,25 @@
         </ul>
     </div>
     <!-- End #languages -->
-
+    <div id="civic" class="background-alt">
+        <h2 class="heading">Civic Engagement</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/civic-engagement.png" width="150"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>A.P.S.A.R. Association</h3>
+                        <h5>70 Chemin Michoun, 31500 Toulouse, France</h5>
+                        <p>
+                            Accompanying students at the A.P.S.A.R. association.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
