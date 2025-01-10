@@ -289,7 +289,7 @@ footer {
 #lead-content h1 {
     color: #fff;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     line-height: 0.9em
@@ -523,7 +523,64 @@ footer {
     font-weight: 300;
     color: #374054
 }
+#teachings {
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dcd9d9;
+    background-color: #f9f9f9;
+}
 
+#teachings h2 {
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.teaching-block {
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.teaching-block h3 {
+    font-weight: 600;
+    float: left;
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+.teaching-block span {
+    color: #95a5a6;
+    float: right;
+    font-size: 1em;
+}
+
+.teaching-block h4 {
+    color: #95a5a6;
+    clear: both;
+    font-weight: 500;
+    margin: 10px 0 15px 0;
+    font-size: 1.2em;
+}
+
+.teaching-block p,
+.teaching-block ul {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.teaching-block ul {
+    padding: 0 0 0 20px;
+}
 #education {
     padding: 60px 20px 30px 20px;
     border-bottom: 1px solid #dcd9d9;
@@ -1023,7 +1080,7 @@ footer {
     }
 
     #lead-content h1 {
-        font-size: 3em
+        font-size: 5em
     }
 
     #lead-content h2 {
